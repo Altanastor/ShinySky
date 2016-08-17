@@ -23,7 +23,7 @@
 #'   
 #'   
 #' @export
-actionButton <- function(inputId, label, styleclass = "", size = "", 
+actionButton2 <- function(inputId, label, styleclass = "", size = "", 
     block = F, icon = NULL, icon.library = c("bootstrap", "font awesome"),  css.class = "", ...) {
     if (styleclass %in% c("primary", "info", "success", "warning", 
         "danger", "inverse", "link")) {

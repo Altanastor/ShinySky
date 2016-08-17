@@ -5,7 +5,7 @@ require(shinysky)
 shinyServer(function(input, output, session) {
  
     
-    # actionButtons
+    # actionButtons2
     observe({
         if (input$id_blank == 0) 
             return()
